@@ -7,3 +7,31 @@ window.onscroll = function (){
     }
 
 }
+
+
+window.onload = function load() {
+    if (window.innerWidth < 757) {
+        document.getElementById("panel").style.display = "none";
+        document.getElementById("panel2").style.display = "block";
+
+    } else {
+        document.getElementById("panel").style.display = "block";
+        document.getElementById("panel2").style.display = "none";
+    }
+}
+window.onresize = resize;
+function resize()
+{
+    if(window.innerWidth < 757){
+        document.getElementById("panel").style.display = "none";
+        document.getElementById("panel2").style.display = "block";
+    }
+
+    else{
+        document.getElementById("panel").style.display = "block";
+        document.getElementById("panel2").style.display = "none";
+    }
+
+
+
+}
