@@ -14,12 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
         },
-        /*
         effect: 'flip',
         flipEffect: {
             slideShadows: false,
         },
-         */
+
         autoplay:{
             delay:5000,
         }
